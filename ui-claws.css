@@ -51,19 +51,20 @@ h2{
 
 /*celular case */
 @media only screen and (max-width: 500px) {
-    body {
-        background-color: ;
-    }
     .box{
         display: inline-grid;        
     }
+    .txtLink{
+        height: 30px;
+    }
     .btnSearch{
+        position: relative;
+        margin-left: 145px;
+        justify-content: center;
         width: 150px;
         padding: 4px;
         margin-top: 10px;
-        display: flex;
-        justify-content: center;
-        
+        text-align: center;
     }
     h2{
         font-size: 20px;
