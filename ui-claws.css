@@ -27,7 +27,7 @@ h2{
 }
 .txtLink{
     width: 700px;
-    box-shadow: 2px 2px 2px 2px black;
+    box-shadow: 1px 1px 1px 1px black;
 }
 .btnSearch{
     background-color: #FFEB3B;
@@ -48,8 +48,24 @@ h2{
     margin: 15px;
     line-height: 75px;
 }
-@media only screen and (max-width: 1280px) {
+
+/*celular case */
+@media only screen and (max-width: 500px) {
     body {
-        background-color: rgb(21, 100, 25);
+        background-color: ;
+    }
+    .box{
+        display: inline-grid;        
+    }
+    .btnSearch{
+        width: 150px;
+        padding: 4px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    h2{
+        font-size: 20px;
     }
 }
